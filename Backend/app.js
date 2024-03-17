@@ -8,7 +8,7 @@ const route=require('./routes/route');
 
 var app=express();
 
-const port=3000;
+const port=3200;
 
 //connect to mongo db
 mongoose.connect('mongodb+srv://Swadhesh:swadplac472@details.q0ysjlg.mongodb.net/TaskManager');
