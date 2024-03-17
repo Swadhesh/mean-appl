@@ -6,7 +6,8 @@ const TaskSchema=mongoose.Schema({
         required:true
     },
     complete:{
-        type:Boolean
+        type:Boolean,
+        required:true
     }
     
 
