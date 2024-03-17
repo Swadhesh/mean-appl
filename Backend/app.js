@@ -11,7 +11,7 @@ var app=express();
 const port=3000;
 
 //connect to mongo db
-mongoose.connect('mongodb://127.0.0.1:27017/TaskManager');
+mongoose.connect('mongodb+srv://Swadhesh:swadplac472@details.q0ysjlg.mongodb.net/TaskManager');
 
 //when connected
 mongoose.connection.on('connected',()=>{
