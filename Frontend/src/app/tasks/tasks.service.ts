@@ -21,7 +21,7 @@ export class TasksService {
     var headers=new HttpHeaders();
     //const headers = new HttpHeaders().set('Content-Type', 'application/json')
     headers.append('Content-Type','application/json');
-    return this.http.post('http://ec2-3-215-68-245.compute-1.amazonaws.com3200/api/add',newTask,{headers:headers}).pipe(map(res=>res));
+    return this.http.post('http://ec2-3-215-68-245.compute-1.amazonaws.com:3200/api/add',newTask,{headers:headers}).pipe(map(res=>res));
   }
   deleteTask(id:any){
     return this.http.delete('http://ec2-3-215-68-245.compute-1.amazonaws.com:3200/api/delete/'+id).pipe(map(res => res));
