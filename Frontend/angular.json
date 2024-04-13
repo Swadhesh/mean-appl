@@ -63,8 +63,7 @@
               "browserTarget": "client:build:production"
             },
             "development": {
-              "browserTarget": "client:build:development",
-              "host": "::"
+              "browserTarget": "client:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -95,5 +94,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "43b05ed7-35de-4b0f-b173-bc49471f1893"
   }
 }
