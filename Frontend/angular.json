@@ -64,7 +64,7 @@
             },
             "development": {
               "browserTarget": "client:build:development",
-              "host": "0.0.0.0"
+              "host": "::"
             }
           },
           "defaultConfiguration": "development"
